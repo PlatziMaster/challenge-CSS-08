@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-content: center;
+  padding: 5% 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 300px;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.user {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.user-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.user-data__name {
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+.user-data__email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+  transition: .2s;
+  cursor: pointer;
+}
+.user-data__email:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.7);
+  transition: .1s;
+  will-change: color;
+  cursor: pointer;
+}
+.list-item__icon {
+  margin-right: 30px;
+}
+.list-item:hover {
+  background-color: rgba(98, 0, 238, .2);
+}
+.list-item:hover .list-item__icon {
+  color: #6200EE;
+}
+.list-item:hover .list-item__description {
+  color: #6200EE;
+}
