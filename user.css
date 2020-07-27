@@ -1,0 +1,74 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.42);
+    box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.42);
+}
+.separador {
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+.user__card {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.user__card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.user__card h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+.user_card--email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user_card--email p {
+    font-size: 14px;
+    margin: 0;
+}
+.user_card--email img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.user_options {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.user_options--button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.user_options--button h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.user_options--button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.user_options--button:hover{
+    background-color: lightgray;
+}
