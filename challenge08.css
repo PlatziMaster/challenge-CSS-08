@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon/fonts/icomoon.eot?95pfi2');
+    src:  url('./icomoon/fonts/icomoon.eot?95pfi2#iefix') format('embedded-opentype'),
+      url('./icomoon/fonts/icomoon.ttf?95pfi2') format('truetype'),
+      url('./icomoon/fonts/icomoon.woff?95pfi2') format('woff'),
+      url('./icomoon/fonts/icomoon.svg?95pfi2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-offline_pin:before {
+    content: "\e903";
+  }
+  .icon-triangle-down:before {
+    content: "\e902";
+  }
+  .icon-folder:before {
+    content: "\e92f";
+  }
+  .icon-clock:before {
+    content: "\e94e";
+  }
+  .icon-users:before {
+    content: "\e972";
+  }
+  .icon-cloud-upload:before {
+    content: "\e9c3";
+  }
+  .icon-upload2:before {
+    content: "\e9c6";
+  }
+  .icon-star-full:before {
+    content: "\e9d9";
+  }
+  header {
+      border: 1px solid grey;
+      font-family: 'Raleway', sans-serif;
+      width: 20%;
+  }
+  .top-bar {
+      background-color: grey;
+      height: 10px;
+  }
+  .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .menu_perfil {
+      height: auto;
+      padding-top: 5%;
+      width: 100%;
+  }
+  .menu_perfil p {
+      border-radius: 50%;
+      height: 5vw;
+      margin-left: 5%;
+      overflow: hidden;
+      width: 5vw;
+  }
+  .menu_perfil p img {
+      margin-left: -25%;
+      width: 150%;
+  }
+  .menu h4 {
+      font-size: 60%;
+      font-weight: lighter;
+      margin: 0 5%;
+  }
+  .menu h4 strong {
+      font-size: 140%;
+  }
+  .menu-down {
+      color: black;
+      margin-right: 9px;
+      text-decoration: none;
+  }
+  .menu_options {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .menu_options a {
+      display: flex;
+      align-items: center;
+      color: grey;
+      margin: 8% 5%;
+      height: 40px;
+      text-decoration: none;
+      width: 100%;
+  }
+  .menu_options a:hover {
+      background-color: rgb(158, 106, 193);
+      color: black;
+  }
