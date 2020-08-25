@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Light";
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  width: 300px;
+  background-color: white;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 10;
+}
+
+.user_card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.user_card--email {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.user_options--button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-container {
+  width: 400px;
+  background-color: white;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.main-cart--button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  margin-top: 0;
+}
+
+.main-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: #1B7530;
+  flex-direction: row-reverse;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #1b5030;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #1b5030;
+  margin-right: 10px;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: #1b5030;
+  margin-right: 10px;
+}
+
+.main-header {
+  width: 100%;
+  height: 120px;
+  background-color: #1b8030;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5em;
+}
+
+.header-left h1 {
+  font-weight: 400;
+  ;
+}
+
+.header-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.separador {
+  border-top: 1px solid lightgray;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.1em;
+}
+
+.main-cart {
+  height: 400px;
+  background-color: grey;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.separador1 {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  margin-top: 150px;
+}
+
+footer {
+  font-size: 12px;
+  color: aliceblue;
+  width: 380px;
+  background-color: #1b8030;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+img{
+  margin-right: 40px;
+  margin-top: 10px;
+}
