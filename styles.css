@@ -1,0 +1,15 @@
+:root {
+  --color-purple: #4c00d5;
+  --color-pink: #9e4bff;
+  --color-purple-light: #6200ee;
+  --color-white: #ffffff;
+  --color-black: #212121;
+  --color-gray: #7a7a7a;
+  --color-gray-light: #a6a6a6;
+  --color-gray-lightest: #e3e3e3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
