@@ -33,25 +33,28 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-purple);
+  background-color: var(--color-pink);
   font-family: "Montserrat", sans-serif;
 }
 
 main {
+  width: 460px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--color-white);
+  background-color: var(--color-purple);
 }
 
 .top-bar {
-  width: 380px;
+  width: 412px;
   height: 32px;
   background-color: var(--color-gray-lightest);
 }
 
 .avatar {
-  padding: 24px;
+  padding: 16px;
+  width: 380px;
+  background-color: var(--color-white);
 }
 
 .avatar img {
@@ -76,7 +79,9 @@ hr {
 }
 
 nav {
-  padding: 8px;
+  width: 380px;
+  padding: 16px;
+  background-color: var(--color-white);
 }
 
 .nav {
