@@ -1,7 +1,7 @@
 :root {
   --color-purple: #4c00d5;
   --color-pink: #9e4bff;
-  --color-purple-light: #6200ee;
+  --color-purple-light: 76, 0, 213;
   --color-white: #ffffff;
   --color-black: #212121;
   --color-gray: #7a7a7a;
@@ -12,4 +12,103 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-purple);
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-white);
+}
+
+.top-bar {
+  width: 380px;
+  height: 32px;
+  background-color: var(--color-gray-lightest);
+}
+
+.avatar {
+  padding: 24px;
+}
+
+.avatar img {
+  margin: 8px 0;
+  width: 54px;
+  border-radius: 50px;
+}
+
+.sub-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-menu i {
+  color: var(--color-gray);
+}
+
+hr {
+  width: 99.5%;
+  margin: 8px 0;
+}
+
+nav {
+  padding: 8px;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  padding: 16px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.nav li i {
+  font-size: 28px;
+  color: var(--color-gray);
+}
+
+.nav li span {
+  margin-left: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+#active {
+  background-color: rgba(var(--color-purple-light), 0.1);
+}
+
+#active i {
+  color: var(--color-purple);
+}
+
+#active span {
+  color: var(--color-purple);
 }
